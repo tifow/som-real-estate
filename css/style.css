@@ -1,0 +1,1347 @@
+@import url('https://fonts.googleapis.com/css2?family=Capriola&display=swap');
+
+:root {
+    --bgcol: rgb(71, 178, 231);
+    --bagcol2: rgb(241, 241, 241);
+    --fontsize: 1.3;
+    --fontsizebig: 2;
+    --txtcol: #dfdfdf;
+    --color: #4b5658;
+    --txtcol2: #6d7374;
+    --fontfimely: 'Capriola', sans-serif;
+    --fontfimaly2: heebo, Sans-serif;
+    --color2: rgba(0, 0, 0, .3);
+}
+
+/* ======================================index css or home css ======================================== */
+.navimg .bg-image img {
+    width: 100%;
+    height: 105vh;
+}
+
+.navimg .color-image {
+    position: absolute;
+    background: linear-gradient(70deg, rgba(139, 116, 172, 0.587) 20%, rgba(0, 59, 177, 0.98) 100%);
+    width: 100%;
+    height: 105vh;
+    top: 0;
+
+}
+
+.color-image .navbar {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-image .navbar img {
+    height: 100px;
+    width: 17%;
+}
+
+.navimg .texts {
+    margin-top: 100px;
+    padding: 0px 20%;
+    width: 100%;
+    text-align: center;
+    font-family: var(--fontfimely);
+    color: var(--bagcol2);
+}
+#get_navbar{
+    background-color: var(--bgcol);
+    position: fixed;
+    right: 20px;
+    z-index: 100;
+    font-weight: bold;
+    border-radius: 3px;
+}
+#navbarNavDropdown {
+    position: fixed;
+    background: #6c5cdf;
+    top: 100px;
+    width: 95%;
+    left: 2.5%;
+    z-index: 2;
+}
+.dropdown ul{
+    width: 100%;
+
+}
+.dropdown ul li a {
+    color: #ffff;
+    font-weight: bold;
+    font-family: var(--fontfimely);
+    padding-left: 20px;
+    border-bottom: 1px solid #ffffff;
+    transition: .2s;
+}
+.dropdown ul li a:hover {
+    color: rgb(239, 8, 220);
+    transition: .2s;
+}
+.dropdown ul li:last-child a {
+    border-bottom: none;
+}
+/* searching */
+.color-image .searching {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.color-image .searching div {
+    width: 47%;
+    text-align: center;
+}
+
+.color-image .searching div .search_input {
+    background-color: var(--bagcol2);
+    width: 330px;
+    margin-left: -20px;
+    margin-right: -90px;
+    padding-left: 30px;
+    height: 42px;
+    border: 1px solid white;
+    border-radius: 3px;
+}
+
+.color-image .searching div p {
+    color: var(--bagcol2);
+    font-family: var(--fontfimely);
+    letter-spacing: 1.2;
+    font-size: 1rem;
+}
+
+.color-image .searching div .search_icon {
+    z-index: 100;
+}
+
+.color-image .searching div .search_btn {
+    background-color: #6c5cdf;
+    color: var(--bagcol2);
+    border-radius: 3px;
+    margin-left: 22px;
+    border: 0px solid white;
+    height: 35px;
+    padding: 5;
+    transition: .3s;
+}
+
+.color-image .searching div .search_btn:hover {
+    background-color: #4837cd;
+    transition: .3s;
+}
+
+/* ///searching */
+
+/* out services */
+.our_services {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.our_services .service {
+    width: 28%;
+    margin: 2.5%;
+    background: var(--bagcol2);
+    border-radius: 6px;
+    font-family: var(--fontfimely);
+    margin-top: -45px;
+    z-index: 2;
+    box-shadow: -2px -2px 11px var(--color2);
+    margin-bottom: 60px;
+    transition: .3s;
+}
+
+.our_services .service:hover {
+    box-shadow: -4px 3px 16px var(--color2);
+    transition: .3s;
+}
+
+.our_services .service .icon {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: var(--fontfimely);
+}
+
+.our_services .service .title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: var(--color);
+    padding-top: 7px;
+}
+
+.our_services .service .text {
+    width: 100%;
+    padding: 10%;
+    text-align: center;
+    color: var(--txtcol2);
+
+}
+
+.our_services .service .icon i {
+    font-size: 24px;
+    color: var(--bagcol2);
+    padding: 15px;
+    margin-top: 7px;
+    border-radius: 10px;
+    background: var(--bgcol);
+}
+
+/* ///our services */
+
+/* what we have */
+.what_we_have {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+    flex-wrap: wrap;
+
+}
+
+.avalibe {
+    width: 30%;
+    text-align: center;
+    font-family: var(--fontfimely);
+
+}
+
+.avalibe .no_house {
+    box-shadow: 1px 2px 4px rgba(88, 85, 85, 0);
+}
+
+.avalibe .no_house p:first-child {
+    font-size: 4.4rem;
+    color: var(--color);
+}
+
+.avalibe .no_house p span {
+    font-size: 50px;
+    font-weight: 500;
+    color: var(--txtcol2);
+}
+
+.avalibe .no_house p:nth-child(2) {
+    font-size: 25px;
+    padding-top: -20px;
+    color: var(--color);
+}
+
+.avalibe .no_house p:last-child {
+    font-size: 18px;
+    color: var(--txtcol2);
+}
+
+/* ///what we have */
+
+/* ===protypes swiper css==== */
+.out-services {
+    background-color: var(--bagcol2);
+}
+
+.some_protype .title {
+    width: 100%;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    font-family: var(--fontfimely);
+    color: var(--color);
+}
+
+.protypes .swiper {
+    width: 90%;
+    height: 430px;
+    position: relative;
+    background-color: var(--bagcol2);
+}
+
+.swiper-wrapper {
+    align-items: center;
+    font-family: var(--fontfimaly2);
+}
+
+.protypes .swiper .swiper-wrapper .swiper-slide {
+    width: 280px;
+    height: auto;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    box-shadow: 1px 1px 9px var(--color);
+    background-color: var(--bagcol2);
+    padding-bottom: 10px;
+}
+
+.swiper-slide .probert {
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 25px;
+}
+
+.probert .img {
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+
+}
+
+.probert .img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 25px;
+
+}
+
+.probert .etc {
+    width: 90%;
+    margin-left: 5%;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+
+.probert .etc .text p {
+    color: rgba(0, 0, 0, .6);
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.probert .etc .icons {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    padding-bottom: 15px;
+    padding-top: 5px;
+}
+
+.probert .etc .icons i {
+    color: var(--cl);
+}
+
+.prices-rate {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+.prices-rate .price span,
+.prices-rate .rate span {
+    color: rgba(0, 0, 0, .3);
+
+}
+
+.prices-rate .rate p {
+    font-size: small;
+    color: rgb(195, 210, 36);
+
+}
+
+/* ///protypes swiper */
+
+/* dalaalada */
+.some_dalaal {
+    width: 100%;
+}
+
+.some_dalaal .title {
+    width: 100%;
+    text-align: center;
+    font-family: var(--fontfimely);
+    color: var(--color);
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+.some_dalaal .swiper {
+    width: 90%;
+    height: 250px;
+    position: relative;
+    background-color: var(--bagcol2);
+}
+
+.some_dalaal .Dalaalada .swiper .swiper-wrapper .swiper-slide {
+    width: 280px;
+    height: 225px;
+    border-radius: 9px;
+    box-shadow: 1px 1px 9px var(--color);
+    background-color: var(--bagcol2);
+}
+.dalaal {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--fontfimely);
+}
+.dalaal a {
+    text-decoration: none;
+}
+.dalaal .person img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.dalaal .person p:last-child {
+    color: chartreuse;
+}
+
+/* ///dalaalada */
+
+/* how we work */
+.navimg .how_we_work {
+    width: 100%;
+}
+
+.navimg .how_we_work h1 {
+    font-family: var(--fontfimely);
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 40px;
+    color: var(--color);
+}
+
+.navimg .how_we_work div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navimg .how_we_work div .how_we_work_text {
+    width: 35%;
+    line-height: 1.8rem;
+    word-spacing: 5px;
+    font-family: var(--fontfimely2);
+    text-align: center;
+    padding-top: 100px;
+}
+
+.navimg .how_we_work div .how_we_work_text a {
+    text-decoration: none;
+    font-family: var(--fontfimely);
+}
+
+.navimg .how_we_work div .how_we_work_text a:hover {
+    text-decoration: underline;
+}
+
+.navimg .how_we_work div .how_we_work_img {
+    width: 50%;
+}
+
+.navimg .how_we_work div .how_we_work_img img {
+    width: 90%;
+    height: 96%;
+}
+
+/* //// how we work */
+/* footer */
+.footer {
+    width: 100%;
+    background: linear-gradient(100deg, rgba(139, 116, 172, 1) 0%, rgba(0, 59, 177, 0.98) 100%);
+    text-align: center;
+    color: var(--bagcol2);
+    border-top-left-radius: 50px;
+    padding-top: 80px;
+    margin-top: 40px;
+    font-family: var(--fontfimely2);
+}
+
+.footer .innerfooter {
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid var(--bagcol2);
+    flex-wrap: wrap;
+}
+
+.footer .imglogo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    padding-left: 2%;
+    padding-right: 5%;
+}
+
+.footer .imglogo img {
+    width: 70%;
+}
+
+.footer .imglogo p {
+    padding-top: 30px;
+}
+
+.footer .linksofweb {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.footer .linksofweb a {
+    color: var(--bagcol2);
+    text-decoration: none;
+}
+
+.footer .linksofweb a:hover {
+    text-decoration: underline;
+}
+
+.footer .contentlinks {
+    padding-left: 10%;
+}
+
+.footer .contentlinks a {
+    color: var(--bagcol2);
+    padding-bottom: 10px;
+}
+
+.footer .contentlinks a:hover {
+    text-decoration: underline;
+    color: var(--color2);
+}
+
+.footer .ownerinfo {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid var(--bagcol2);
+    display: flex;
+    justify-content: center;
+}
+
+.footer .ownerinfo .icons i {
+    padding: 9px;
+    background: var(--color);
+    border-radius: 50%;
+    text-align: center;
+    transition: .5s;
+    transform: rotate(0deg);
+}
+
+.footer .ownerinfo .icons i:hover {
+    background: var(--bgcol);
+    transform: rotate(360deg);
+    transition: .5s;
+}
+
+.footer .buttomfooter {
+    width: 100%;
+    padding: 10px;
+}
+
+/* /////footer */
+/* ======================================////  index css or home css ======================================== */
+/* ======================================content css ======================================== */
+
+.navimg .contents {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    font-family: var(--fontfimely);
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.navimg .contents .content {
+    width: 26%;
+    margin: 3.666%;
+    background: var(--bagcol2);
+    box-shadow: 2px 3px 3px 3px var(--color2);
+    border-radius: 7px;
+}
+
+.navimg .contents .content:hover {
+    box-shadow: 2px 3px 3px 5px var(--color2);
+}
+
+.navimg .contents .content i {
+    background: var(--bgcol);
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: var(--bagcol2);
+    border-radius: 7px;
+    font-size: 1.1rem;
+}
+
+.navimg .form_content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navimg .form_content form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.navimg .form_content form div {
+    width: 65%;
+    background: var(--bagcol2);
+    box-shadow: 2px 3px 4px 3px var(--color2);
+    border-radius: 7px;
+    padding: 40px;
+}
+
+.navimg .form_content .inputs {
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    border: 1px solid var(--color2);
+    border-radius: 4px;
+    border-color: var(--color2);
+    padding-left: 10px;
+}
+
+.navimg .form_content .textArea {
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid var(--color2);
+    border-radius: 4px;
+    padding-left: 10px;
+    font-weight: 400;
+}
+
+.navimg .form_content .btn_send {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: var(--bgcol);
+    color: var(--bagcol2);
+    border: 1px solid var(--color2);
+    border-radius: 4px;
+    padding-top: 20px;
+    padding-right: 20px;
+
+
+}
+
+/* ======================================//// content css ======================================== */
+
+
+/* ======================================//// properties css ======================================== */
+.con_properties {
+    width: 100%;
+    /* background: var(--bagcol2); */
+}
+
+.con_properties .properties {
+    width: 95%;
+    padding-left: 2.5%;
+}
+
+.con_properties .properties .searching_properties {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+
+.btn-details{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.btn-details a{
+    color: rgb(117, 117, 217);
+    text-decoration: none;
+    font-weight: 500;
+    font-family: var(--fontfimaly2);
+}
+.con_properties .properties .searching_properties p{
+    color: var(--bgcol);
+    font-size: 1.3rem;
+    line-height: 5xp;
+    font-weight: 600;
+    font-family: var(--fontfimely);
+}
+.con_properties .properties .searching_properties .input_searching{
+    width: 27%;
+}
+.con_properties .properties .searching_properties .input_searching input{
+    width: 100%;
+    height: 37px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+    font-weight: 500;
+    font-family: var(--fontfimely);
+
+}
+.all_properties{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap :2%;
+}
+.all_properties .probert{
+    width: 31%;
+    margin-top: 20px;
+    box-shadow: 2px 3px 11px rgba(0,0,0,0.28);
+    border-top-left-radius: 23px;
+    transition: all .3s;
+}
+.all_properties .probert:hover{
+    margin-top: 15px;
+    transition: all .3s;
+}
+
+/* ======================================//// properties css ======================================== */
+
+/* ======================================//// dalaal info css ======================================== */
+
+.dalaal_info{
+    width: 95%;
+    padding-left: 2.5%;
+}
+.dalaal_info .searching_dalaal {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.dalaal_info .searching_dalaal p {
+    color: var(--bgcol);
+    font-size: 1.3rem;
+    line-height: 5px;
+    font-weight: 600;
+}
+.dalaal_info .searching_dalaal .input_searching{
+    width: 27%;
+}
+.dalaal_info .searching_dalaal .input_searching input{
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgba(0, 0, 0, 0.40);
+
+}
+.all_info_dalaal{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.all_info_dalaal .dalaal{
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.51),-1px -2px 5px rgba(0, 0, 0, 0.31);
+    width: auto;
+    padding:13px 30px ;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: all .4s;
+
+}
+.all_info_dalaal .dalaal:hover{
+    box-shadow: 2px 1px 11px rgba(0, 0, 0, 0.51),2px 1px 11px rgba(0, 0, 0, 0.38);
+    transition: all .4s;
+
+}
+/* ======================================//// dalaal info css ======================================== */
+
+/* ====================================== login ======================================== */
+.login_contaner{
+    width: 100%;
+    background-color: var(--bagcol2);
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.login_contaner .login_div h2{
+    font-family: var(--fontfimely);
+    text-align: center;
+    margin: 40px auto; 
+}
+.login_contaner .login_div div .form-control{
+    border-radius: 5px;
+    margin-bottom: 8px;
+    height: 42px;
+    background: rgba(0, 0, 0, .1);
+}
+.login_contaner .login_div div a{
+    text-decoration: none;
+}
+.login_contaner .login_div div p{
+    font-family: var(--fontfimaly2);
+    text-align: center;
+}
+.login_contaner .login_div div .btn{
+    width: 90%;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 45px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+}
+.login_contaner .login_div{
+    width: 80%;
+    background-color: var(--bagcol2);
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .20);
+    padding: 14px;
+}
+.login_contaner .login_div div{
+    display: flex;
+    justify-content: space-between;
+}
+.login_contaner .login_div div .img-div{
+    width: 46%;
+}
+.login_contaner .login_div div form{
+    width: 50%;
+}
+/* ======================================//// login ======================================== */
+
+
+/* ====================================== sign up ======================================== */
+
+.sign_contaner{
+    width: 100%;
+    background-color: var(--bagcol2);
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+.sign_contaner .sign_div h2{
+    font-family: var(--fontfimely);
+    text-align: center;
+    margin: 40px auto; 
+}
+.sign_contaner .sign_div div .img-div{
+    width: 20%;
+}
+.sign_contaner .sign_div div img{
+    width: 190%;
+}
+.sign_contaner .sign_div{
+    width: 95%;
+    background-color: var(--bagcol2);
+    border-radius: 6px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .20);
+    padding: 14px;
+}
+.sign_contaner .sign_div div{
+    display: flex;
+    justify-content: space-between;
+}
+.sign_contaner .sign_div div .signup-form{
+    width: 62%;
+}
+.sign_contaner .sign_div div .signup-form .form_input ,.sign_contaner .sign_div div .signup-form  select{
+    width: 45%;
+    border-radius: 5px;
+    height: 40px;
+    background: rgba(0, 0, 0, .10);
+    margin-bottom: 17px;
+    border: none;
+    padding-left: 5px;
+}
+.sign_contaner .sign_div div .btn{
+    width: 70%;
+    margin-top: 10px;
+    border-radius: 50px;
+    height: 45px;
+    margin-left: 15%;
+    margin-bottom: 10px;
+}
+
+
+/* ======================================//// sign up ======================================== */
+
+
+/* ====================================== choose sign up ======================================== */
+.choose_con{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: var(--bagcol2);
+}
+.choose_con .choose{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: var(--fontfimely);
+    border: 1px solid rgba(0, 0, 0, .30);
+    border-radius: 20px;
+}
+.choose_con .choose .choose_dalaal,.choose_con .choose .choose_arday{
+    width: 26%;
+    border: 1px solid rgba(0, 0, 0, .30);
+    border-radius: 40px;
+    padding: 25px;
+    transition: .2s all;
+}
+.choose_con .choose .choose_dalaal:hover,.choose_con .choose .choose_arday:hover{
+    padding: 10px;
+    background: var(--txtcol);
+    transition: .2s all;
+}
+.choose_con .choose a{
+    text-decoration: none;
+}
+.choose_con .choose p{
+    color: var(--txtcol2);
+    text-align: center;
+}
+/* ======================================//// choose sign up ======================================== */
+
+/* ====================================== dalaal infomation properties ======================================== */
+.all_dalaal_info{
+    width: 100%;
+    background-color: #ffff;
+}
+.all_dalaal_info .dalaal_properties{
+    width: 100%;
+}
+.all_dalaal_info .dalaal_properties .dalaal_infomation{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+.all_dalaal_info .dalaal_properties .dalaal_infomation .img{
+    width: 25%; 
+}
+.all_dalaal_info .dalaal_properties .dalaal_infomation .img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.all_dalaal_info .dalaal_properties .dalaal_infomation i{
+    color: rgb(195, 210, 36);
+}
+.all_dalaal_info .dalaal_properties .dalaal_infomation p{
+    font-family: var(--fontfimely);
+    padding: 7px 0;
+    margin: 0;
+}
+.all_dalaal_info .dalaal_properties .dalaal_propert_info{
+    width: 92%;
+    padding-left: 4%;
+}
+.all_dalaal_info .dalaal_properties .property_type{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid var(--txtcol);
+    border-top: 2px solid var(--txtcol);
+    padding: 10px 0;
+}
+/* ====================================== ///// dalaal infomation properties ======================================== */
+
+
+/* ====================================== property infomation ======================================== */
+.homelocation{
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: var(--fontfimely);
+    color: rgba(0, 0, 0, .60);
+    display: flex;
+    justify-content: space-between;
+}
+.homelocation span{
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 8px;
+    margin-left: 7px;
+}
+.homelocation .print a{
+    font-size: 14px;
+}
+.all_properties_info{
+    width: 100%;
+    background: #fff;
+}
+.all_properties_info .properties_infomation{
+    width: 100%;
+}
+.all_properties_info .properties_infomation .property_images{
+    width: 75%;
+}
+.all_properties_info .properties_infomation .property_images img{
+    height: 70vh;
+    margin: 30px;
+}
+.details{
+    width: 70%;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.details .detail{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding-bottom: 25px;
+}
+.box_details{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 15px 0%;
+    margin-top: 35px;
+    border: 1px solid #00AEEF;
+    background-color: #a3ffcb;
+}
+.egn_name{
+    padding-top: 35px;
+
+}
+.content_to_owner{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+.content_to_owner a{
+    text-decoration: none;
+}
+.content_to_owner .content_owner_info{
+    width: 40%;
+}
+.content_to_owner .content_owner_info .content_img{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.content_to_owner .content_owner_info .content_img p{
+    padding-left: 6px;
+}
+.content_to_owner .content_owner_info .content_img img{
+    width: 55%;
+    border-radius: 7px;
+}
+
+/* ====================================== ///// property infomation ======================================== */
+
+
+
+
+@media(max-width: 1100px) {
+
+    /* ======================================index css or home css ======================================== */
+    .color-image .navbar img {
+        height: 100px;
+        width: 26%;
+    }
+
+    .navimg .texts {
+        padding: 0px 10%;
+    }
+
+    .color-image .searching div {
+        width: 80%;
+    }
+
+    /* swiper protype */
+    .swiper {
+        width: 100%;
+    }
+
+    /* ///swiper protype */
+    /* ======================================///// index css or home css ======================================== */
+}
+
+@media (max-width:900px) {
+
+    /* ======================================index css or home css ======================================== */
+    .our_services .service {
+        width: 100%;
+    }
+
+    .our_services .service .text {
+        padding: 0%;
+    }
+
+    .navimg .how_we_work div {
+        flex-direction: column-reverse;
+    }
+
+    .navimg .how_we_work div .how_we_work_text {
+        width: 100%;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+
+    }
+
+    .navimg .how_we_work div .how_we_work_img {
+        width: 50%;
+        margin-left: 25%;
+    }
+
+    /* ======================================///// index css or home css ======================================== */
+    
+    /* ======================================content css======================================== */
+    .navimg .contents {
+        display: flex;
+        justify-content: center;
+    }
+
+    .navimg .contents .content {
+        width: 100%;
+    }
+
+    .navimg .form_content form div {
+        width: 95%;
+    }
+
+    /* ======================================content css======================================== */
+
+
+    /* ======================================properties css======================================== */
+    .all_properties .probert{
+        width: 47%;
+    }
+    .all_properties{
+        justify-content: space-evenly;
+    }
+    .con_properties .properties .searching_properties .input_searching{
+        width: 87%;
+    }
+    .con_properties .properties .searching_properties .input_searching input{
+        width: 77%;
+    }
+    /* ======================================////properties css======================================== */
+
+    
+    /* ======================================dalaal info css======================================== */
+    .dalaal_info .searching_dalaal .input_searching{
+        width: 87%;
+    }
+    .dalaal_info .searching_dalaal .input_searching input{
+        width: 77%;
+    }
+    /* ======================================////dalaal info css======================================== */
+        
+    /* ====================================== login ======================================== */
+    .login_contaner .login_div div .img-div{
+        display: none;
+    }
+    .login_contaner .login_div div{
+        justify-content: center;
+    }
+    .login_contaner .login_div div form{
+        width: 80%;
+    }
+    /* ======================================//// login ======================================== */
+
+
+    /* ======================================//// sign up ======================================== */
+    
+    .sign_contaner .sign_div div .signup-form{
+        width: 95%;
+    }
+    .sign_contaner .sign_div div .img-div{
+        display: none;
+    }
+    .sign_contaner .sign_div div{
+        display: flex;
+        justify-content: center;
+    }
+    .sign_contaner .sign_div div .signup-form .form_input{
+        width: 70%;
+        margin-left: 15%;
+    }
+    /* ======================================//// sign up ======================================== */
+}
+
+@media(max-width: 700px) {
+
+    /* ======================================index css or home css ======================================== */
+    .color-image .navbar img {
+        margin-left: -10px;
+        height: 100px;
+        width: 40%;
+    }
+
+    .navimg .texts {
+        padding: 0px 0%;
+    }
+
+    .color-image .searching div {
+        width: 100%;
+    }
+
+    .our_services .service .text p {
+        font-size: 13px;
+    }
+
+    /* what we do  */
+    .what_we_have .avalibe {
+        width: 100%;
+    }
+
+    /* ///what we do */
+    /* how it works */
+    .navimg .how_we_work div .how_we_work_text {
+        width: 100%;
+        padding: 5%;
+    }
+
+    /* //////// how it works */
+    /*footer  */
+    .footer .innerfooter div {
+        width: 100%;
+        padding: 0%;
+        padding-bottom: 15px;
+        /* display: flex;
+        justify-content: center; */
+    }
+
+    /* ////footer */
+    /* ======================================///// index css or home css ======================================== */
+
+    
+    /* ======================================properties css======================================== */
+    .all_properties .probert{
+        width: 70%;
+    }
+    .all_properties{
+        justify-content: center;
+    }
+    .con_properties .properties .searching_properties .input_searching{
+        width: 100%;
+    }
+    .con_properties .properties .searching_properties .input_searching input{
+        width: 100%;
+    }
+    /* ======================================////properties css======================================== */
+
+    
+    /* ======================================////dalaal info css======================================== */
+    
+    .dalaal_info .searching_dalaal .input_searching{
+        width: 100%;
+    }
+    .dalaal_info .searching_dalaal .input_searching input{
+        width: 100%;
+    }
+    
+    /* ======================================////dalaal info css======================================== */
+    /* ======================================//// sign up ======================================== */
+    
+    .sign_contaner .sign_div div .signup-form .form_input{
+        width: 100%;
+        margin-left: 0%;
+    }
+    /* ======================================//// sign up ======================================== */
+
+
+    /* ====================================== choose sign up ======================================== */
+    .choose_con .choose{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .choose_con .choose .choose_dalaal,.choose_con .choose .choose_arday{
+        width: 45%;
+        margin-bottom: 5px;
+        background: var(--txtcol);
+        transition: none;
+    }
+    .choose_con .choose .choose_dalaal:hover,.choose_con .choose .choose_arday:hover{
+        padding: 25px;
+        transition: none;
+    }
+    /* ======================================//// choose sign up ======================================== */
+}
+
+@media(max-width: 450px) {
+
+    /* ======================================index css or home css ======================================== */
+    .navimg .bg-image img {
+        height: 80vh;
+    }
+
+    .navimg .color-image {
+        height: 80vh;
+    }
+
+    .color-image .navbar img {
+        margin-left: -10px;
+        height: 100px;
+        width: 45%;
+    }
+
+    .navimg .texts {
+        padding: 0px 2%;
+    }
+
+    .navimg .texts h1 {
+        line-height: 1.2;
+        font-size: 20px;
+        color: var(--bagcol2);
+        font-weight: 400;
+    }
+
+    /* ======================================////// index css or home css ======================================== */
+    /* ======================================content css======================================== */
+    .navimg .contents {
+        font-size: 12px;
+    }
+
+    /* ======================================////// content css======================================== */
+
+    
+    /* ======================================properties css======================================== */
+    .all_properties .probert{
+        width: 92%;
+    }
+    .all_properties{
+        justify-content: center;
+    }
+    /* ======================================////properties css======================================== */
+
+    
+    /* ======================================////dalaal info css======================================== */
+    .all_info_dalaal{
+        justify-content: center;
+    }
+    /* ======================================////dalaal info css======================================== */
+
+        
+    /* ====================================== login ======================================== */
+    .login_contaner .login_div div form{
+        width: 100%;
+    }
+    .login_contaner .login_div{
+        width: 95%;
+    }
+    /* ======================================//// login ======================================== */
+
+
+
+    /* ======================================//// sign up ======================================== */
+    
+    .sign_contaner .sign_div{
+        width: 100%;
+    }
+    .sign_contaner .sign_div div .signup-form .form_input{
+        width: 100%;
+        margin-left: 0%;
+    }
+    /* ======================================//// sign up ======================================== */
+
+    /* ====================================== choose sign up ======================================== */
+    
+    .choose_con .choose .choose_dalaal,.choose_con .choose .choose_arday{
+        width: 70%;
+    }
+    /* ======================================//// choose sign up ======================================== */
+
+}
